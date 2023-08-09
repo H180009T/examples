@@ -11,7 +11,7 @@ import streamlit as st
 import os
 
 # Cohere API key
-api_key = os.environ["CO_KEY"]
+api_key = os.environ["COHERE_API_KEY"]
 
 # Set up Cohere client
 co = cohere.Client(api_key)
